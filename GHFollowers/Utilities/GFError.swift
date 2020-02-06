@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GHFollowers
 //
-//  Created by Simranjeet  Singh on 2020-01-07.
+//  Created by Simranjeet  Singh on 2020-01-29.
 //  Copyright © 2020 Simranjeet  Singh. All rights reserved.
 //
 
@@ -13,4 +13,5 @@ enum GFError: String, Error {
     case unableToComplete = "Unabel to complete your request. Please check your internet connection"
     case invalidResponse  = "Invalid response from server. Please try again."
     case invalidData      = "The data recieved from server is invalid. Please try again."
+    case unableToFavorite = "There was an favoriting this user. Please try again."
 }
